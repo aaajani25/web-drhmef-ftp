@@ -1,0 +1,89 @@
+.graphite .accordion ul li a{
+	padding-left:35px;
+}
+.graphite .accordion ul li a:hover{
+	/*padding-left:50px;*/
+}
+.graphite .accordion{
+	font: bold 14px Arial, sans-serif; 
+	border-top: 1px solid #111; 
+	border-right: 1px solid #111; 
+	border-left: 1px solid #111;
+}
+.graphite .accordion, .graphite .accordion li {
+	margin: 0; 
+	padding: 0; 
+	border: none;
+	background-color:#e2e0cb;
+}
+
+.graphite .accordion .first a:focus{
+	background:linear-gradient(#97c700 0%, #709400 100%);
+}
+.graphite .accordion .first a:active {
+	background:#FFF;
+}
+.graphite .accordion a {
+	padding: 10px 10px 10px 10px; 
+	background: #e0f0d8; 
+	text-decoration:none; 
+	display: block; 
+	color: #000; 
+	/*border-bottom: 1px solid #090;*/ 
+	border: 1px solid #090; 
+	position: relative; 
+/*	border-radius:2px;*/
+}
+.graphite .accordion a:hover {
+	/*padding: 10px 10px 10px 10px; */
+	background: #CCC ; 
+	text-decoration:none; 
+	display: block; 
+	color: #ddd; 
+	/*border-bottom: 1px solid #709400 ; 
+	border-top: 1px solid #97c700 ;*/ 
+	position: relative;
+}
+.graphite .accordion a.active {
+	padding: 10px 10px 10px 10px; 
+	background: #0C0C0C ; 
+	text-decoration:none; 
+	display: block; 
+	color: #ddd; 
+	/*border-bottom: 1px solid #709400 ; 
+	border-top: 1px solid #97c700 ; */
+	position: relative;
+}
+.graphite .accordion ul a {
+	background: #fff;
+}
+.graphite .accordion a.dcjq-parent {}
+
+.graphite .accordion a.dcjq-parent:hover {
+	/*background:linear-gradient(#97c700 0%, #709400 100%);*/
+	background-image: linear-gradient(#036D00, #037100);
+}
+.graphite .accordion a.dcjq-parent.active {
+	/*background:linear-gradient(#97c700 0%, #709400 100%);*/
+	background-image: linear-gradient(#036D00, #037100);
+}
+.graphite .accordion a .dcjq-icon {
+	position: absolute; 
+	top: 50%; 
+	left: 14px; 
+	width: 34px; 
+	margin-top: -17px; 
+	height: 34px; 
+	background:url(../images/ic_expand.png) no-repeat 0 center;
+}
+.graphite .accordion a.dcjq-parent.active .dcjq-icon {
+	background: url(../images/ic_expand.png) no-repeat 0 center;
+}
+.graphite .accordion a:hover {
+	color: #fff;	
+	background-image: linear-gradient(#036D00, #037100);
+}
+.graphite .accordion a.active{
+	/*background:linear-gradient(#97c700 0%, #709400 100%);*/
+	background-image: linear-gradient(#036D00, #037100);
+}

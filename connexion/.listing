@@ -1,0 +1,14 @@
+drwxr-xr-x    2 5014       client1          4096 May 17 03:09 .
+drwx--x---  173 5014       client1         20480 May 31 13:31 ..
+-rw-r--r--    1 5014       client1           155 Dec 18 16:35 .htaccess
+-rw-r--r--    1 5014       client1            87 Dec 18 16:35 .htpasswd
+-rw-r--r--    1 5014       client1          2157 Dec 18 16:35 config.php
+-rw-r--r--    1 5014       client1           729 Dec 18 16:35 config1.php
+-rw-r--r--    1 5014       client1          1448 Dec 18 16:35 config_a.php
+-rw-r--r--    1 5014       client1           547 Dec 18 16:35 connect.php
+-rw-r--r--    1 5014       client1           709 Dec 18 16:35 connexion.php
+-rw-r--r--    1 5014       client1          9459 Dec 18 16:35 convocation_conc.php
+-rw-r--r--    1 5014       client1           308 Dec 18 16:35 index.html
+-rw-r--r--    1 5014       client1          2354 Feb  7 03:40 main_config.php
+-rw-r--r--    1 5014       client1           458 Dec 18 16:35 mfpra.php
+-rw-r--r--    1 5014       client1             0 May 17 03:09 soutra_imma_17052017.php

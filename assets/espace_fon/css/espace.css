@@ -1,0 +1,213 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+/*body > header{
+	height:167px;
+	position:fixed;
+	top:0px;
+	z-index:10;
+	margin:0 auto;
+	background:url(../images/head_in_lass.png) 0 100% no-repeat;
+	box-shadow:0px 0px 7px #000;
+	overflow:hidden;
+	text-align:center;
+	width:100%;
+}*/
+#shell {
+	width:auto;
+	margin:20px auto 5px auto;
+	height:auto;
+
+}
+#shell .box-container{border: #096 1px double; padding:10px}
+
+#shell td, th{
+	border-spacing:inherit;
+	font-weight:bold;
+}
+
+#shell .wel{font-size:18px; font-family:Oswald; font-weight:lighter}
+
+#shell table {
+	border-collapse:separate;
+}
+
+#shell .box-content{margin-top:5px; margin-bottom:15px}
+#shell .content{color: rgb(197, 82, 6); font-weight:bold;}
+
+#shell .box-table{
+	/*margin: 10px;*/
+	font-weight: 700;
+	border-radius: 3px;
+	background-color: #FCB306;
+	border-bottom: #F5F5F5 1px double;
+	color:#FFFFFF;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+#shell .affiche{padding:4px 3px 5px 3px;}
+#shell .affiche:hover{border-bottom:1px solid #FFF}
+
+#shell .masque{padding:4px 3px 5px 3px;}
+#shell .masque:hover{border-top:1px solid #FFF}
+
+#shell .box-small {
+	width:auto;
+	height:auto;
+	/*border:#096 1px double;*/
+	overflow:hidden;
+}
+
+@media (max-width: 599px) {
+  .box-content tr {
+   	background: #ffffff;
+  }
+
+  .box-content tr:nth-of-type(odd) {
+  background: #ffffff;
+  }
+}
+/*#shell .event {
+	width:860px;
+	height:18px;
+}*/
+/*#shell .list-group-item {
+    position: relative;
+    display: block;
+	margin:10px;
+    padding: 7px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+	font-weight: 700;
+	border-radius:3px;
+	background-color:#e0f0d8;
+	border: #4bc80c 1px double;
+}
+#shell .donne tr{
+	height:24px;
+}
+#shell .donne label{
+	font-weight:normal;
+}*/
+#shell {
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 13px;
+  color: #3b3b3b;
+  font-smoothing: antialiased;
+}
+
+#shell .wrapper {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: auto;
+}
+
+#shell .table {
+  margin: 10px 20px 20px 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  display: table;
+}
+@media screen and (max-width: 580px) {
+  #shell .table {
+    display: block;
+  }
+}
+
+#shell tr.actes{color:#ffffff; border:1px solid #333; display: table-row;}
+
+#shell .row {
+  display: table-row;
+  background: #ffffff;
+}
+#shell .row:nth-of-type(odd) {
+  background: #ffffff;
+}
+
+#shell .row.header {
+  font-weight: 900;
+  color: #ffffff;
+  background: #ea6153;
+  border-radius:3px;
+}
+#shell .row.green {
+  background: #27ae60;
+}
+
+.box-content .no-result{color:#F00;}
+
+#shell .row.blue {
+  background: #2980b9;
+}
+@media screen and (max-width: 580px) {
+ #shell .row {
+    padding: 8px 0;
+    display: block;
+  }
+}
+
+#shell .cell {
+  padding: 6px 13px;
+  display: table-cell;
+}
+@media screen and (max-width: 580px) {
+  #shell .cell {
+    padding: 2px 13px;
+    display: block;
+  }
+}
+
+option{padding:6px}
+.nb_maj_compte{
+	color:#C00; font-weight:lighter; font-family:'Oswald'; font-size:16px; padding:10px;
+	border:1px solid #C00; background-color:#FCF;
+}
+.nb_maj_compte span{text-decoration:underline}
+
+.del{padding:6px 4px;/* border-radius:20px;*/ box-shadow:2px 5px 3px #999999; background-color:#FFF}
+.del:hover{background-color:transparent; cursor:pointer; box-shadow:none}
+
+.footer_ef{
+	padding:5px;
+	margin:5px 0px 15px 0px;
+	color:#036D00;
+	border-bottom:1px solid #063;
+	font-family:'Oswald';
+}
+
+	@media (min-width:900px){
+		#pgcx-7-1-0{width:25%;}
+		#pgcx-7-1-2{width:75%;}
+		#shell{margin-top:1px}
+	}
+
+	 textarea{width:100%;}
+
+	.titre_ef{
+		font-size:34px; background-color:#F5F5F5;
+		padding:8px;
+		width:40%;
+		margin:0px auto 0px auto;
+		text-align:center;
+		border:1px solid #333333;
+	}
+
+	@media (max-width:700px){
+		.titre_ef{width:100%;}
+	}
+
+	.champ_de_saisie{width:97%}
+
+	@media (max-width:599px){
+		#accueil-900, #tab-page-w{display:none}
+		#accueil-400, #tab-page-s{display:block}
+	}
+
+	@media (min-width:600px){
+		#accueil-900, #tab-page-w{display:block}
+		#accueil-400, #tab-page-s{display:none}
+	}

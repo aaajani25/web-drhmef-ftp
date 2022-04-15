@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/var/www/virtual/fonctionpublique.ci/htdocs/concours/.htpasswd"
+Require valid-user

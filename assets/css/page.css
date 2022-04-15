@@ -1,0 +1,171 @@
+#page{height:auto; margin-bottom:10px;}
+#page .title{margin-top:30px;}
+#page .panel-grid .widget-title{font-size:18px}
+#page .page_art_content, #page .panel-grid-cell p{text-align:justify}
+
+@media (min-width:900px){
+	#page #pgx-7-1{margin-left:0px; margin-right:0px}
+}
+
+@media (max-width:899px){
+	#page .page_art_content, #page .panel-grid-cell p{text-align:left}
+}
+
+#page .champ_de_saisie, #page .textarea{
+	width:100%;
+	padding:8px; 
+}
+
+/*#page #pgcx-7-1-0{
+	background-image:-moz-linear-gradient(30deg, #47975f, white);
+	background-image:-webkit-linear-gradient(30deg, #47975f, white);
+	background-image:-o-linear-gradient(30deg, #47975f, white);
+	background-image:linear-gradient(60deg, #47975f, white);
+	
+	color:#000;	
+}*/
+
+#page fieldset{color:#333; font-weight:600}
+#page fieldset img{padding:1px; margin-bottom:5px; border:1px solid #036D00; border-radius:18px; width:20px; height:20px}
+
+#page .page-box span{text-align:justify}
+#page input, #page select{margin-bottom:15px}
+.acc td{padding:6px}
+
+/*#page .sel{width:50%}*/
+#page .copie{width:20%}
+
+#tabb{border:1px solid #F5F5F5;}
+#tabb th, #tabb td{padding:6px}
+#tabb .row-title{background-color:#036D00; color:#FFF; font-weight:bold}
+#tabb .row-content{background-color:#D8D8D8;}
+#tabb .row-content a{color:#03C; font-weight:normal}
+#tabb .row-content:nth-child(2n+2){background-color:#F5F5F5;}
+#tabb .no-result{color:#F00}
+
+
+.tab-form{width:100%; background-color:#F5F5F5; margin:0px auto 0px auto; padding:15px;/* border-bottom:2px solid #036D00;*/}
+
+@media (max-width:500px){
+		.tab-form{width:100%;}		
+	}
+	
+.msg{				
+		text-align:center;
+		padding:10px;
+		margin-bottom:10px;
+		width:100%;
+		font-weight:bold;
+	}
+	
+	.msg-erreur{
+		border:1px solid #BF0000;	
+		background-color:#FFBFBF;
+		color:#BF0000;		
+	}
+	
+	.msg-succes{
+		border:1px solid #007500;		
+		background-color:#C4FFC4;
+		color:#007500;		
+	}
+	
+
+.esp_fon, .page_art{width:100%; box-shadow:none; background-color:#FFF; padding:10px}
+
+.end_page{background-color:#D5FFEA; border-bottom:2px solid #008442; padding:0px}
+ 
+ #i_button{background-color:#008442; color:#FFF; font-weight:bold; border:none}
+ #i_button:hover{background-color:#00CA65}
+ 
+ 
+.tab-doc td{padding:6px;}
+.titre-doc{background-color:#CCC; color:#666; font-weight:bold}
+
+#titre{		
+		background-repeat: no-repeat;	
+		background-attachment: scroll;
+			
+		/*border-top: 2px solid #eeeeee;
+		border-bottom: 2px solid #eeeeee;*/	
+		box-shadow: -1px 2px 10px 3px rgba(0, 0, 0, 0.3) inset; 
+		background-color: #f2f2f2;
+		
+		margin-bottom: 3.75rem;
+		padding-top: 40px;
+		padding-bottom: 35px;	
+		margin:0px -89px;			
+	}
+	
+	.t_container {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+
+.h_tilte{
+    margin-bottom: 0;
+}
+
+.disp-1 {
+    color:#333;
+	font-size:25px;	
+    font-weight: bold;
+	text-transform:uppercase;
+	font-family:'Roboto';
+	text-align:left;
+}
+
+.hit li{font-size:17px; list-style-image:url('lib_green.png')}
+
+.page_art_content .cal_conc{text-align:center;}
+
+ @media (max-width:800px){
+/*	#page{margin-top:100px;}*/
+	#page .panel-grid .widget-title{padding-top:15px}
+/*	#titre{margin-top:54px;}*/
+}
+
+@media screen and (min-width:800px){
+	#page .page_art_content{padding:0px 35px 0px 35px;}
+}
+
+@media (min-width:992px){
+	#titre{
+		background-image: url('titre_bg.jpg');
+		background-position: top center;		
+	}
+}
+@media (max-width:991px){
+	#titre{
+		background-image: url('titre_bg2.jpg');	
+		background-position:top left;		
+	}
+
+	.disp-1 {
+		/*font-size: 20px;
+		color:#666;*/
+		/*text-shadow:0px 0px 1px #333;*/
+		font-family: "roboto", Helvetica, Arial, sans-serif
+	}	
+}
+
+@media (max-width:337px){
+	#titre{
+		padding-bottom: 15px;			
+	}
+}
+
+@media (max-width:700px){
+	.cal_conc img{width:100%;}
+}
+
+@media (min-width:900px){
+		#page #pgcx-7-1-0, #page #pgcx-7-1-2{width:50%; float:left}
+		/*#page #pgcx-7-1-0{border-bottom:2px solid #036D00}*/
+} 		
+
+@media (max-width:899px){
+	#pgcx-7-1-0, #pgcx-7-1-2{width:100%;}
+}	
